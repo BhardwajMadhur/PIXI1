@@ -5,7 +5,7 @@ const game = new PIXI.Application({
 });
 document.getElementById("game").append(game.view);
 loadAssets([
-  { name: "back", url: "/assets/cardback.png" },
+  { name: "back", url: "assets/cardback.png" },
   { name: "front", url: "assets/smilies.jpg" },
 ], start);
 //------------------------------
